@@ -13,20 +13,6 @@ const transpose = function(matrix) {
     return array;
 };
 
-
-// const wordSearch = (letters, word) => { 
-//     const horizontalJoin = letters.map(ls => ls.join(''))
-//     const newLetters = transpose(letters)
-//     const verticalJoin = newLetters.map(ls => ls.join(''))
-//     for (l of horizontalJoin) {
-       
-        
-//     }
-    
-//     if(verticalJoin.includes(word)) {return true}
-//     return false;
-// }
-
 const wordSearch = (letters, word) => { 
     const horizontalJoin = letters.map(ls => ls.join(''))
     const newLetters = transpose(letters)
@@ -49,9 +35,4 @@ const wordSearch = (letters, word) => {
 }
 
 module.exports = wordSearch
-
-
-
-
-//Hello
 
